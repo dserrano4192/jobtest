@@ -1,7 +1,8 @@
-﻿body {
+body {
     background-image: url("background.jpeg");
     margin: auto;
     font-family: roboto, Arial, serif;
+    height: 2000px;
 }
 
 table{
@@ -18,21 +19,21 @@ th{
     cursor: pointer;
 }
 
-#display{
-    display: default;
-}
-
 h1{
     font-size: 3em;
+    color: white;
     width: 75%;
     margin: auto;
+    text-shadow: 1px 1px 2px black;
     text-align: left;
 }
 
 h6{
     font-size: 1.5em;
+    color: white;
     font-weight: lighter;
     width: 75%;
+    text-shadow: 1px 1px 1.5px black;
     text-align: left;
     margin: auto;
 }
@@ -73,15 +74,17 @@ footer{
 }
 
 #copy a{
-    padding: 0;
+    padding: 10px;
     position: fixed;
     bottom: 5px;
     left: 5px;
+    font-size: 1.25em;
 }
 
 #footer a {
     float: right;
     padding: 12px;
+    font-size: 1.25em;
 }
 
 input{
